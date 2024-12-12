@@ -1,18 +1,33 @@
 body{
     text-align: center;
     margin-top: 100px;
+    background-color: rgb(211, 219, 224);
 }
 
 
 #signup{
     width: 350px;
     height: 530px;
-    background-color: lightblue;
-    margin-bottom: 150px;
+    background-color: rgb(94, 128, 139);
+    margin-bottom: 130px;
     text-align: center;
     border-radius: 10px;
+    justify-content: center;
 }
 
 h1{
-    font: inter;
+    color: white;
+}
+
+button{
+    border-radius: 5px;
+    width: 80px;
+    height: 32px;
+    color: rgb(126, 153, 161);
+    border: none;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
 }

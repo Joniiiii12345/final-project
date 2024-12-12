@@ -7,35 +7,42 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <center>
-    <div id="signup">
+    
+<form action="action_page.php" style="border:none">
+    <div class="display">
+        <div  id="signup">
         <br>
         <h1>Sign Up</h1>
-        <label> Username </label><br>
-        <input type="text" name="Username"><br>
+        <label for="Username"> <b style="color: #f0effc;">Username</b> </label><br>
+        <input style="border-radius: 4px #dfdfdf;" type="text" name="Username" placeholder="Enter Username" required><br>
         <br>
         <br>
-        <label> Email </label><br>
-        <input type="email" name="Email"><br>
+        <label for="Email"> <b style="color: #f0effc;">Email</b> </label><br>
+        <input style="border-radius: 4px #dfdfdf;" type="email" name="Email" placeholder="Enter Email" required><br>
         <br>
         <br>
-        <label> Password </label><br>
-        <input type="password" name="password"><br>
+        <label for="password"> <b style="color: #f0effc;">Password</b> </label><br>
+        <input style="border-radius: 4px #dfdfdf ;" type="password" minlength="4" maxlength="16" name="password" placeholder="Enter Password" required><br>
         <br>
         <br>
-        <label> Re-type Password </label><br>
-        <input type="password" name="password"><br>
+        <label for="re-password"> <b style="color: #f0effc;">Re-type Password</b> </label><br>
+        <input style="border-radius: 4px #a5adb9;" type="re-password" minlength="4" maxlength="16" name="re-password" placeholder="Re-type Email" required><br>
         <br>
         <br>
-        <label> Select ur gender: </label><br>
-        Male<input type="radio"  name="gender" id="male">
-        Female<input type="radio" name="gender" id="Female">
-        Other<input type="radio" name="gender" id="Other">
+        <label> <b style="color: #f0effc;">Select ur gender:</b> </label><br>
+        <b style="color: #f0effc;" >Male</b><input type="radio"  name="gender" id="male" required>
+        <b style="color: #f0effc;" >Female</b><input type="radio" name="gender" id="Female" required>
+        <b style="color: #f0effc;" >Other</b><input type="radio" name="gender" id="Other" required>
         <br>
         <br>
-        <button type="button">Sign Up</button>
+        <div class="clearfix">
+            <button type="submit" class="signupbtn"><b style="color: white;">Sign Up</b></button>
+        </div>
     </div>
-    </center>
+</div>
+    
+</form>
+    
 
 </body>
 </html>
