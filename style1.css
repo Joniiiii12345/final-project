@@ -8,11 +8,11 @@
 
 body {
     font-family: Arial, sans-serif; 
-    background-color: rgb(94, 128, 139);             
+    background-color: #dee9e2;             
 }
 
 .navbar {
-    background-color: #fff;
+    background-color: #dee9e2;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,4 +47,11 @@ body {
 .nav-links li a:hover {
     background-color: rgb(94, 128, 139);
     border-radius: 5px;
+}
+
+#text{
+    margin-top: 700px;
+    width: 1902px;
+    height: 900px;
+    background-color: aqua;
 }
